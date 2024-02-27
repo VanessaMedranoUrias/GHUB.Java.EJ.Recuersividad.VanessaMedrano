@@ -12,6 +12,7 @@ public class Principal{
             System.out.println("*************************");
             System.out.println("1)  LADRILLOS");
             System.out.println("2)  FACTORIAL");
+            System.out.println("3)  NUMEROS NATURALES");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
             opc=consola.nextInt();
@@ -23,7 +24,7 @@ public class Principal{
             case 2:
               AppFactorial.menu();
             case 3:
-               
+               AppNaturales.menu();
             case 4:
                
             case 5:
